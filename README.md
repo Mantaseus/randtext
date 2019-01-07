@@ -5,7 +5,7 @@ This module can be used to generate random text in python. It can be used to gen
 - Pronouncable mishmash of characters
 - Random dictionary words
 
-# Usage
+## Usage
 
 Import the module in your project like this
 
@@ -19,7 +19,7 @@ You only need to use the following method to generate random text. The `format` 
 randtext.generate(format)
 ```
 
-# Format argument
+## Format argument
 
 The `format` argument is a comma separated list of instructions that will be used by randtext to generate the random text. 
 
@@ -37,7 +37,7 @@ The instruction must be a number followed by the operation type or a list of cha
     - `dC` - Generate uppercase dictionary text
     - `dcC` - Generate dictionary text with characters that are randomly lower or uppercase
 
-# Examples
+## Examples
 
 - Simple meaningless random text with 14 ascii lowercase and uppercase characters
 
@@ -88,7 +88,7 @@ The instruction must be a number followed by the operation type or a list of cha
     # proselyte conqueror
     ```
 
-# Notes
+## Notes
 
 - The dictionary uses words found [here](http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain) and I take no responsibility for the words output by the dictionary operation. 
     - Feel free to delete or add your own words from the files in the `dictionary` directory of your local cloned copy of the repo.
