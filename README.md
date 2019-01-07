@@ -81,11 +81,11 @@ The instruction must be a number followed by the operation type or a list of cha
     randtext.generate('10dc,1 ,10dc')
 
     # 5 sample outputs:
-    # numerable flammable
-    # breachers examining
-    # animation churchill
-    # pakistani conestoga
-    # stencil's marvelous
+    # courteous sumptuous
+    # brimstone riverbank
+    # memoranda embroider
+    # stimulant promenade
+    # proselyte conqueror
     ```
 
 # Notes
@@ -93,3 +93,31 @@ The instruction must be a number followed by the operation type or a list of cha
 - The dictionary uses words found [here](http://svnweb.freebsd.org/csrg/share/dict/words?view=co&content-type=text/plain) and I take no responsibility for the words output by the dictionary operation. 
     - Feel free to delete or add your own words from the files in the `dictionary` directory of your local cloned copy of the repo.
     - The name of each file in the `dictionary` directory is the same as the number of characters in each line of the file. The `organize_dictionary.py` script can be used to read a raw dictionary file with words of all lengths and create the numbered files required by randtext
+    - The number of words with a given length in the dictionary used here is as follows:
+        
+        ```
+        Length | # of words
+        -------+------------
+        2      | 26
+        3      | 136
+        4      | 783
+        5      | 2207
+        6      | 3210
+        7      | 3910
+        8      | 4126
+        9      | 3708
+        10     | 3151
+        11     | 2021
+        12     | 1140
+        13     | 588
+        14     | 288
+        15     | 113
+        16     | 44
+        17     | 19
+        18     | 8
+        19     | 4
+        21     | 2
+        22     | 2
+        23     | 1
+
+        ```
