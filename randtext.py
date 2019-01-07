@@ -181,6 +181,9 @@ def generate(format):
 
 # Handle command line arguments
 if len(sys.argv) == 2:
-    #print(generate('1C#$&,1-,14cCi,1-,14p,1-6d,1-,2i'))
     print(generate(sys.argv[1]))
+elif len(sys.argv) == 3:
+    for i in range(0,int(sys.argv[2])):
+        print(generate(sys.argv[1]))
+        
 
