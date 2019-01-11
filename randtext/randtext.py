@@ -176,14 +176,3 @@ def generate(format):
                     password = password + char_option
 
     return password
-
-# MAIN --------------------------------------------------------------------------------------------
-
-# Handle command line arguments
-if len(sys.argv) == 2:
-    print(generate(sys.argv[1]))
-elif len(sys.argv) == 3:
-    for i in range(0,int(sys.argv[2])):
-        print(generate(sys.argv[1]))
-        
-
